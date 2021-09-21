@@ -413,7 +413,7 @@ function signin() {
 function dsj_led() {
     return new Promise((resolve, reject) => {
         let url = {
-            url: `http://api.gaoqingdianshi.com/api/sign/chooseAdditionalReward?rewardId=55`,
+            url: `http://api.gaoqingdianshi.com/api/sign/chooseAdditionalReward?rewardId=49`,
             headers: JSON.parse(dsj_header1),
         }
         $.get(url, (error, response, data) => {
